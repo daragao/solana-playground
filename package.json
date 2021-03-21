@@ -1,0 +1,18 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "validator": "solana-test-validator",
+    "build": "cd program;cargo build-bpf --manifest-path=./Cargo.toml --bpf-out-dir=dist/program",
+    "hello": "node --trace-warnings hello-world.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/web3.js": "^1.0.0",
+    "buffer-layout": "^1.2.0"
+  }
+}
